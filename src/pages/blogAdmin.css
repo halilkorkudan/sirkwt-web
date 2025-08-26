@@ -1,0 +1,77 @@
+.blog-admin {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fefefe;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.blog-admin h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.blog-admin form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 30px;
+}
+
+.blog-admin input,
+.blog-admin textarea,
+.blog-admin select {
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+.blog-admin button {
+    align-self: flex-start;
+    padding: 10px 20px;
+    border: none;
+    background-color: #61dafb;
+    color: white;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.blog-admin button:hover {
+    background-color: #21a1f1;
+}
+
+.blog-admin .posts-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.blog-admin .post-item {
+    padding: 12px 16px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.blog-admin .post-item .title {
+    font-weight: bold;
+    color: #333;
+}
+
+.blog-admin .post-item button {
+    padding: 6px 12px;
+    font-size: 14px;
+    background-color: #f56565;
+}
+
+.blog-admin .post-item button:hover {
+    background-color: #e53e3e;
+}
